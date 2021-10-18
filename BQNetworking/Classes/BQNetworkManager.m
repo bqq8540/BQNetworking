@@ -9,4 +9,8 @@
 
 @implementation BQNetworkManager
 
+- (void)test {
+    NSLog(@"BQNetworkManager Pod Create Success");
+}
+
 @end
