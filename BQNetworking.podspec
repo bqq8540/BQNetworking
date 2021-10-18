@@ -21,16 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/yaqiangbi/BQNetworking'
+  s.homepage         = 'https://github.com/bqq8540/BQNetworking'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yaqiangbi' => 'yaqiangbi@wholeeprime.com' }
-  s.source           = { :git => 'https://github.com/yaqiangbi/BQNetworking.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/bqq8540/BQNetworking.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'BQNetworking/Classes/**/*'
+  
+  s.dependency 'AFNetworking'
   
   # s.resource_bundles = {
   #   'BQNetworking' => ['BQNetworking/Assets/*.png']

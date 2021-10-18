@@ -1,0 +1,27 @@
+PODS:
+  - BQNetworking (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - BQNetworking (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  BQNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BQNetworking: abe09ec281b77ee7cb38198dd0ffa3b47578d761
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 9ef203f2fb42a583017ba8428048420fe580f706
+
+COCOAPODS: 1.11.2
