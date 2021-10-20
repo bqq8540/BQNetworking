@@ -14,7 +14,7 @@
 }
 
 - (void)request {
-    NSLog(@"I have finished a requeste");
+    NSLog(@"I have finished a request");
 }
 
 @end
