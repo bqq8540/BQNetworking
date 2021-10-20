@@ -13,4 +13,8 @@
     NSLog(@"BQNetworkManager Pod Create Success");
 }
 
+- (void)request {
+    NSLog(@"I have finished a requeste");
+}
+
 @end

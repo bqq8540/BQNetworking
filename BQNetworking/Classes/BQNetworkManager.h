@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)test;
 
+- (void)request;
+
 @end
 
 NS_ASSUME_NONNULL_END

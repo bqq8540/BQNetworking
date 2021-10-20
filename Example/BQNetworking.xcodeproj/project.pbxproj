@@ -24,6 +24,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C46CE2DD271D8F680058DE27 /* BQPodTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C46CE2DC271D8F680058DE27 /* BQPodTestTests.m */; };
+		C46CE2E8271D8F680058DE27 /* BQPodTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C46CE2E7271D8F680058DE27 /* BQPodTestUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002EFA66E4AFC1C4C5AB566D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		002EFA66E4AFC1C4C5AB566D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BQNetworking_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BQNetworking_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +64,26 @@
 		848D4E1A3BE53BB9D8B77EE3 /* Pods-BQNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BQNetworking_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BQNetworking_Tests/Pods-BQNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8848D1160B5AE96DA26EC238 /* Pods-BQNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BQNetworking_Tests.release.xcconfig"; path = "Target Support Files/Pods-BQNetworking_Tests/Pods-BQNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B0BCD5E14AFB119295F73ED9 /* BQNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BQNetworking.podspec; path = ../BQNetworking.podspec; sourceTree = "<group>"; };
-		B7DFD9F79B3BC8F4BCAA492D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B0BCD5E14AFB119295F73ED9 /* BQNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BQNetworking.podspec; path = ../BQNetworking.podspec; sourceTree = "<group>"; };
+		B7DFD9F79B3BC8F4BCAA492D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B9A813DDCE0A562B58A2B14F /* Pods_BQNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BQNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46CE2C0271D8F670058DE27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C46CE2C1271D8F670058DE27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C46CE2C3271D8F670058DE27 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C46CE2C4271D8F670058DE27 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C46CE2C6271D8F670058DE27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C46CE2C7271D8F670058DE27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C46CE2CA271D8F670058DE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C46CE2CC271D8F680058DE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C46CE2CF271D8F680058DE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C46CE2D1271D8F680058DE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C46CE2D2271D8F680058DE27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C46CE2D8271D8F680058DE27 /* BQPodTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BQPodTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46CE2DC271D8F680058DE27 /* BQPodTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BQPodTestTests.m; sourceTree = "<group>"; };
+		C46CE2DE271D8F680058DE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C46CE2E3271D8F680058DE27 /* BQPodTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BQPodTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46CE2E7271D8F680058DE27 /* BQPodTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BQPodTestUITests.m; sourceTree = "<group>"; };
+		C46CE2E9271D8F680058DE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8E5BBDD6AF03216A92404A2 /* Pods-BQNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BQNetworking_Example.debug.xcconfig"; path = "Target Support Files/Pods-BQNetworking_Example/Pods-BQNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E206CAB51A87448DD883EB24 /* Pods_BQNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BQNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -92,6 +111,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C46CE2D5271D8F680058DE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46CE2E0271D8F680058DE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -101,6 +134,9 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for BQNetworking */,
 				6003F5B5195388D20070C39A /* Tests */,
+				C46CE2BF271D8F670058DE27 /* BQPodTest */,
+				C46CE2DB271D8F680058DE27 /* BQPodTestTests */,
+				C46CE2E6271D8F680058DE27 /* BQPodTestUITests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				7A3EA3A0092D3A1EC4C21646 /* Pods */,
@@ -112,6 +148,8 @@
 			children = (
 				6003F58A195388D20070C39A /* BQNetworking_Example.app */,
 				6003F5AE195388D20070C39A /* BQNetworking_Tests.xctest */,
+				C46CE2D8271D8F680058DE27 /* BQPodTestTests.xctest */,
+				C46CE2E3271D8F680058DE27 /* BQPodTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,8 +231,43 @@
 				848D4E1A3BE53BB9D8B77EE3 /* Pods-BQNetworking_Tests.debug.xcconfig */,
 				8848D1160B5AE96DA26EC238 /* Pods-BQNetworking_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C46CE2BF271D8F670058DE27 /* BQPodTest */ = {
+			isa = PBXGroup;
+			children = (
+				C46CE2C0271D8F670058DE27 /* AppDelegate.h */,
+				C46CE2C1271D8F670058DE27 /* AppDelegate.m */,
+				C46CE2C3271D8F670058DE27 /* SceneDelegate.h */,
+				C46CE2C4271D8F670058DE27 /* SceneDelegate.m */,
+				C46CE2C6271D8F670058DE27 /* ViewController.h */,
+				C46CE2C7271D8F670058DE27 /* ViewController.m */,
+				C46CE2C9271D8F670058DE27 /* Main.storyboard */,
+				C46CE2CC271D8F680058DE27 /* Assets.xcassets */,
+				C46CE2CE271D8F680058DE27 /* LaunchScreen.storyboard */,
+				C46CE2D1271D8F680058DE27 /* Info.plist */,
+				C46CE2D2271D8F680058DE27 /* main.m */,
+			);
+			path = BQPodTest;
+			sourceTree = "<group>";
+		};
+		C46CE2DB271D8F680058DE27 /* BQPodTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C46CE2DC271D8F680058DE27 /* BQPodTestTests.m */,
+				C46CE2DE271D8F680058DE27 /* Info.plist */,
+			);
+			path = BQPodTestTests;
+			sourceTree = "<group>";
+		};
+		C46CE2E6271D8F680058DE27 /* BQPodTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C46CE2E7271D8F680058DE27 /* BQPodTestUITests.m */,
+				C46CE2E9271D8F680058DE27 /* Info.plist */,
+			);
+			path = BQPodTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +312,40 @@
 			productReference = 6003F5AE195388D20070C39A /* BQNetworking_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C46CE2D7271D8F680058DE27 /* BQPodTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C46CE2F1271D8F680058DE27 /* Build configuration list for PBXNativeTarget "BQPodTestTests" */;
+			buildPhases = (
+				C46CE2D4271D8F680058DE27 /* Sources */,
+				C46CE2D5271D8F680058DE27 /* Frameworks */,
+				C46CE2D6271D8F680058DE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BQPodTestTests;
+			productName = BQPodTestTests;
+			productReference = C46CE2D8271D8F680058DE27 /* BQPodTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C46CE2E2271D8F680058DE27 /* BQPodTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C46CE2F2271D8F680058DE27 /* Build configuration list for PBXNativeTarget "BQPodTestUITests" */;
+			buildPhases = (
+				C46CE2DF271D8F680058DE27 /* Sources */,
+				C46CE2E0271D8F680058DE27 /* Frameworks */,
+				C46CE2E1271D8F680058DE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BQPodTestUITests;
+			productName = BQPodTestUITests;
+			productReference = C46CE2E3271D8F680058DE27 /* BQPodTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -252,6 +359,18 @@
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
+					C46CE2D7271D8F680058DE27 = {
+						CreatedOnToolsVersion = 12.4;
+						DevelopmentTeam = Q9Z84759T4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C46CE2BD271D8F670058DE27;
+					};
+					C46CE2E2271D8F680058DE27 = {
+						CreatedOnToolsVersion = 12.4;
+						DevelopmentTeam = Q9Z84759T4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C46CE2BD271D8F670058DE27;
+					};
 				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "BQNetworking" */;
@@ -259,6 +378,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -269,6 +389,8 @@
 			targets = (
 				6003F589195388D20070C39A /* BQNetworking_Example */,
 				6003F5AD195388D20070C39A /* BQNetworking_Tests */,
+				C46CE2D7271D8F680058DE27 /* BQPodTestTests */,
+				C46CE2E2271D8F680058DE27 /* BQPodTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,6 +412,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46CE2D6271D8F680058DE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46CE2E1271D8F680058DE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +533,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C46CE2D4271D8F680058DE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46CE2DD271D8F680058DE27 /* BQPodTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46CE2DF271D8F680058DE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46CE2E8271D8F680058DE27 /* BQPodTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -428,6 +580,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				71719F9E1E33DC2100824A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C46CE2C9271D8F670058DE27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C46CE2CA271D8F670058DE27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C46CE2CE271D8F680058DE27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C46CE2CF271D8F680058DE27 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -586,6 +754,166 @@
 			};
 			name = Release;
 		};
+		C46CE2EC271D8F680058DE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Q9Z84759T4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = BQPodTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = yaqiang.bi.BQPodTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BQPodTest.app/BQPodTest";
+			};
+			name = Debug;
+		};
+		C46CE2ED271D8F680058DE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Q9Z84759T4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = BQPodTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = yaqiang.bi.BQPodTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BQPodTest.app/BQPodTest";
+			};
+			name = Release;
+		};
+		C46CE2EE271D8F680058DE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Q9Z84759T4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = BQPodTestUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = yaqiang.bi.BQPodTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BQPodTest;
+			};
+			name = Debug;
+		};
+		C46CE2EF271D8F680058DE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Q9Z84759T4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = BQPodTestUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = yaqiang.bi.BQPodTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BQPodTest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -612,6 +940,24 @@
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
 				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C46CE2F1271D8F680058DE27 /* Build configuration list for PBXNativeTarget "BQPodTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46CE2EC271D8F680058DE27 /* Debug */,
+				C46CE2ED271D8F680058DE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C46CE2F2271D8F680058DE27 /* Build configuration list for PBXNativeTarget "BQPodTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46CE2EE271D8F680058DE27 /* Debug */,
+				C46CE2EF271D8F680058DE27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
